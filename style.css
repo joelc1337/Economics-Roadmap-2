@@ -9,9 +9,32 @@ header,footer{
  margin-bottom:0;
 }
 
-.img-responsive{height:300px;
-width:100%;}
+a > .img-responsive{height:300px;
+width:100%;  outline:2px solid black;
+}
+
+
+
+#return{
+  text-decoration:none;
+  color:black;
+  text-align:center;
+  margin: 0 auto;
+  border:1px solid black;
+  padding:20px;
+  width:20%;
+  font-size:3em;
+}
+
+a,a:hover{
+  text-decoration:none;
+}
+
 
 img{
-  outline:2px solid black;
+  margin:0 auto;
+}
+
+section{
+  text-align:center;
 }
